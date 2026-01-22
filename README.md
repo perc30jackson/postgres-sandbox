@@ -366,7 +366,7 @@ Now that you have all prerequisites installed, let's set up the learning environ
 cd "C:\path\to\postgres-sandbox"
 
 # Or clone it from GitHub:
-git clone https://github.com/YOUR_USERNAME/postgres-sandbox.git
+git clone https://github.com/perc30_jackson/postgres-sandbox.git
 cd postgres-sandbox
 
 # Open in VS Code:
@@ -383,7 +383,7 @@ code .
 cd ~/path/to/postgres-sandbox
 
 # Or clone it from GitHub:
-git clone https://github.com/YOUR_USERNAME/postgres-sandbox.git
+git clone https://github.com/perc30_jackson/postgres-sandbox.git
 cd postgres-sandbox
 
 # Open in VS Code:
