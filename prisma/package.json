@@ -1,0 +1,31 @@
+{
+  "name": "prisma-learning",
+  "version": "1.0.0",
+  "description": "Learn PostgreSQL with Prisma ORM",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lesson:basics": "ts-node src/01_basics.ts",
+    "lesson:crud": "ts-node src/02_crud.ts",
+    "lesson:relations": "ts-node src/03_relations.ts",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio",
+    "prisma:introspect": "prisma db pull",
+    "seed": "ts-node src/seed.ts"
+  },
+  "keywords": ["prisma", "postgresql", "learning", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "prisma": "^5.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.8.0"
+  }
+}

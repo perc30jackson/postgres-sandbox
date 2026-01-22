@@ -1,0 +1,17 @@
+# PostgreSQL Learning - Python Dependencies
+
+# Database Drivers
+psycopg2-binary==2.9.9    # PostgreSQL adapter for Python
+
+# ORMs and Query Builders
+sqlalchemy==2.0.25         # SQL toolkit and ORM
+alembic==1.13.1           # Database migrations for SQLAlchemy
+
+# Environment and Configuration
+python-dotenv==1.0.0      # Load environment variables from .env
+
+# Data Handling
+pandas==2.1.4             # Data manipulation and analysis
+
+# Development Tools
+ipython==8.20.0           # Enhanced interactive Python shell
