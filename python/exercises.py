@@ -5,8 +5,9 @@ Complete these exercises to test your understanding!
 Each exercise has a description and a placeholder function.
 Fill in the function body to solve the exercise.
 
-Run this file to check your answers:
-    python exercises.py
+How to run:
+  Windows:  python exercises.py
+  macOS:    python3 exercises.py
 """
 
 import psycopg2

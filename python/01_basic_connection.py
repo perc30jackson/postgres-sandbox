@@ -8,6 +8,10 @@ Learning objectives:
 - Connect to a PostgreSQL database
 - Execute basic queries
 - Handle connections properly with context managers
+
+How to run:
+  Windows:  python 01_basic_connection.py
+  macOS:    python3 01_basic_connection.py
 """
 
 import psycopg2

@@ -8,6 +8,10 @@ Learning objectives:
 - Define models with declarative base
 - Perform CRUD operations using ORM
 - Understand relationships between models
+
+How to run:
+  Windows:  python 03_sqlalchemy_intro.py
+  macOS:    python3 03_sqlalchemy_intro.py
 """
 
 from sqlalchemy import create_engine, Column, Integer, String, Float, ForeignKey, DateTime, Text

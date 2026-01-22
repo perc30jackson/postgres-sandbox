@@ -9,6 +9,10 @@ Learning objectives:
 - UPDATE existing records
 - DELETE records safely
 - Use parameterized queries to prevent SQL injection
+
+How to run:
+  Windows:  python 02_crud_operations.py
+  macOS:    python3 02_crud_operations.py
 """
 
 import psycopg2
